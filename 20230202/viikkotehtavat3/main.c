@@ -94,5 +94,39 @@ tarvitse tehdä kolmea erillistä ohjelmaa)
         // Tulosta
         printf("\n%d * %d = %d", luku, i, luku * i);
     }
+    // Tulosta väliotsikko
+    printf("\n----3.4 BONUS / KAIKKI KERTOTAULUT ------\n");
+    // Luo ulompi silmukka
+    for ( int kertotaulu = 1; kertotaulu <= 10; kertotaulu++) {
+        // Luo sisempi silmukka
+        for ( int i = 1; i <= 10; i++ ) {
+            // Tulosta
+            printf("\n%d * %d = %d", kertotaulu, i, kertotaulu * i);
+        }
+    }
+    /*
+     * . Tee ohjelma, joka lukee käyttäjältä kokonaisluvun.
+     * Sitten ohjelma summaa tähän lukuun asti kaikkien parillisten lukujen arvot ja tulostaa summan näytölle.
+     * (HUOM luku%2 jakojäännös on nolla parillisilla luvuilla)
+     * (Jos käyttäjä syöttää luvun 8 niin ohjelma tulostaa luvun 20 (0+2+4+6+8)
+     */
+    // Tulosta väliotsikko
+    printf("\n----3.5 PARILLISTEN LUKUJEN SUMMA ------\n");
+    // Luo muuttujat
+    int numero, summa = 0;
+    // Pyydä luku
+    printf("\nNumero: ");
+    // Lue luku
+    scanf("%d", &numero);
+    // Silmukka
+    for ( int i = 0; i <= numero; i++ ) {
+        // Tarkista onko parillinen
+        if ( i % 2 == 0 ) {
+            // Parillinen luku lisätään summa-muuttujan arvoon
+            summa += i;
+        }
+    }
+    // Tulostetaan lopuksi summa
+    printf("\n%d", summa);
     return 0;
 }
