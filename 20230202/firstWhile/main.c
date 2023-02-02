@@ -41,5 +41,14 @@ int main()
     for ( int i = 10; i >= 0; i-- ) {
         printf("\n%d", i);
     }
+    printf("\n\n");
+    printf("--Nested loops --");
+    for ( int row = 0; row <= 9; row++ ) {
+        printf("\n");
+        for ( int col = 0; col <= 9; col++ ) {
+            printf("(%d.%d)", row, col);
+        }
+    }
+
     return 0;
 }
