@@ -33,5 +33,13 @@ int main()
         laskuri++;
     } while ( laskuri < toistokerrat );
 
+    // Tulosta numerot 0-10
+    for ( int i = 0; i <= 10; i++ ) {
+        printf("\n%d", i);
+    }
+    // Tulosta numerot 10-0
+    for ( int i = 10; i >= 0; i-- ) {
+        printf("\n%d", i);
+    }
     return 0;
 }
