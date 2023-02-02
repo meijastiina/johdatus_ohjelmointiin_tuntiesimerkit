@@ -21,5 +21,17 @@ int main()
         // Kasvata laskuria
         laskuri++;
     }
+    // Tulosta otsikko
+    printf("\n -- Do...while -- ");
+    // Nollataan laskuri
+    laskuri = 0;
+    // Tee do..while-silmukka jota kiekataan niin kauan kuin käyttäjä on käskenyt
+    do {
+        // Tulosta nimi
+        printf("\n%s", nimi);
+        // Kasvata laskuria
+        laskuri++;
+    } while ( laskuri < toistokerrat );
+
     return 0;
 }
