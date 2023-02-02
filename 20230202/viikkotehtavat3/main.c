@@ -84,5 +84,15 @@ tarvitse tehdä kolmea erillistä ohjelmaa)
      */
     // Tulosta väliotsikko
     printf("\n----3.4 KERTOTAULU ------\n");
+    // Pyydä luku
+    printf("Luku: ");
+    // Lue luku
+    int luku;
+    scanf("%d", &luku);
+    // Luo silmukka
+    for ( int i = 1; i <= 10; i++ ) {
+        // Tulosta
+        printf("\n%d * %d = %d", luku, i, luku * i);
+    }
     return 0;
 }
