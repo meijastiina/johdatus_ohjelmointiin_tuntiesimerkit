@@ -128,5 +128,27 @@ tarvitse tehdä kolmea erillistä ohjelmaa)
     }
     // Tulostetaan lopuksi summa
     printf("\n%d", summa);
+
+    /* Tee ohjelma joka tulostaa käyttäjälle seuraavan valikon, jossa on kolme vaihtoehtoa:
+     *  1. Neliön kehän pituus
+     *  2. Ympyrän kehän pituus
+     *  9. Lopetus.
+     * Käyttäjä voi valita halutun toiminnan syöttämällä 1,2 tai 9.
+     * Valinta 1 saa aikaan tulostuksen ”Valittu Neliön kehän pituus”,
+     * valinta 2 saa aikaan tulostuksen ”Valittu Ympyrän kehän pituus”.
+     * Em. tulostuksien jälkeen valikko tulostetaan aina uudelleen.
+     * Valinta 9 lopettaa ohjelman. (Käytä while-toistorakennetta)
+    */
+    // Luodaan muuttuja käyttäjän valinnalle
+    int choice;
+    // Tee silmukka, jota toistetaan niin kauan kunnes annetaan 9
+    while ( choice != 9 ) {
+        // Tulosta valikko
+        printf("\n1. Neliön kehän pituus");
+        printf("\n2. Ympyrän kehän pituus");
+        printf("\n9. Lopetus\n");
+        // Lue valinta
+        scanf("%d", &choice);
+    }
     return 0;
 }
