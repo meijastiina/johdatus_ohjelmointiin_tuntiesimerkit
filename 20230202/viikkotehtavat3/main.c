@@ -5,6 +5,8 @@ int main()
     /*
      * 1. Tee C-kielinen ohjelma joka tulostaa luvun 100 viisi kertaa allekkain näytölle (muista rivin
 vaihto). Käytä toistorakennetta. */
+    // Tulosta väliotsikko
+    printf("\n----3.1 SATA VIISI KERTAA ------\n");
     // Luodaan muuttuja silmukkaa varten
     int i = 0;
     // Luodaan silmukka, jota toistetaan viisi kertaa
@@ -33,6 +35,8 @@ vaihto). Käytä toistorakennetta. */
 (HUOM! voit tehdä, jos haluat a)-c) kohdat samaan ohjelmaan peräkkäin näin sinun ei
 tarvitse tehdä kolmea erillistä ohjelmaa)
 */
+    // Tulosta väliotsikko
+    printf("\n----3.2 NIMI ------\n");
     // Luodaan muuttuja nimelle
     char nimi[15];
     // Luodaan muuttuja toistokerroille
@@ -50,5 +54,35 @@ tarvitse tehdä kolmea erillistä ohjelmaa)
         // Tulosta nimi
         printf("\n%s", nimi);
     }
+    /*
+     * Luo sovellus joka:
+     *  • Kysyy käyttäjältä salanumeron
+     *  • Jos salanumero on 17, sovellus onnittelee käyttäjää onnistuneesta valinnasta ja ohjelma päättyy
+     *  Jos käyttäjän syöttämä numero ei ole 17, sovellus kysyy numeroa uudestaan.
+     *  (Käytä whiletai do-while toistorakennetta)
+    */
+    // Tulosta väliotsikko
+    printf("\n----3.3 SALANUMERO ------\n");
+    // Luo muuttuja salanumerolle
+    int secretNumber;
+    do {
+        // Kysy numeroa
+        printf("\nSalanumero: ");
+        // Scannaa numero
+        scanf("%d", &secretNumber);
+    } while ( secretNumber != 17 );
+    // Tulosta onnittelut
+    printf("Oikein meni!\n");
+
+    /*
+     * Tee ohjelma, joka tulostaa käyttäjän syöttämän kokonaisluvun kymmenen kertotaulun eli,
+     * jos käyttäjä syöttää luvun 5 tulostuu seuraavaa:
+     *  5*1=5
+     *  5*2=10
+     *  5*3=15
+     *  …jne. 5*10=50 asti.
+     */
+    // Tulosta väliotsikko
+    printf("\n----3.4 KERTOTAULU ------\n");
     return 0;
 }
