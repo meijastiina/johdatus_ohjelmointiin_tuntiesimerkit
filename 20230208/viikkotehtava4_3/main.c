@@ -26,7 +26,7 @@ int lue()
     printf("Anna kokonaisluku: ");
     // Tässä aliohjelmassa luetaan myös kokonaisluku
     int number;
-    scanf("%d\n", &number);
+    scanf("%d", &number);
     // palautetaan luettu kokonaisluku pääohjelmaan
     return number;
 }
