@@ -5,7 +5,7 @@ paikalliseksi (ei globaali) muuttujaksi. Funktiossa tämä merkkijono tulostetaa
 #include <stdio.h>
 
 // Funktion prototyyppi
-void tulostaMerkkijono(char *);
+void tulostaMerkkijono(char *merkkijono);
 int main()
 {
     tulostaMerkkijono("Hello tulostaMerkkijono!");
