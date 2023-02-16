@@ -14,6 +14,7 @@
  *      • model CHAR(50)
  *      • yearModel INT
  */
+#include <string.h>
 typedef struct Car {
     char brand[20];
     char model[50];
@@ -37,13 +38,20 @@ int main()
         scanf("%d", &cars[i].yearModel);
         printf("----------\n");
     }
-    // tulostetaan kaikkien autojen tiedot
-    // loopataan kolme kertaa
-    printf("----- CARS -----\n");
-    for ( int i = 0; i < 3; i++ ) {
-        printf("\n%-*s%s", 15, "Brand: ", cars[i].brand);
-        printf("\n%-*s%s", 15, "Model: ", cars[i].model);
-        printf("\n%-*s%d\n", 15, "Year model:", cars[i].yearModel);
+    // kysytään auton merkki(brand)
+    printf("\n-- Search for a specific brand --\n");
+    printf("Brand: ");
+    char brandToPrint[20];
+    scanf("%s", brandToPrint);
+    // ja tulostetaan kaikki kyseisen merkin autojen tiedot
+    printf("\n----- %s -----\n", brandToPrint);
+    for ( int i = 0; i < 5; i++ ) {
+        // Jos auto on valittua merkkiä
+        if ( strcmp(cars[i].brand, brandToPrint) == 0 ) {
+            printf("\n%-*s%s", 15, "Brand: ", cars[i].brand);
+            printf("\n%-*s%s", 15, "Model: ", cars[i].model);
+            printf("\n%-*s%d\n", 15, "Year model:", cars[i].yearModel);
+        }
     }
     return 0;
 }
