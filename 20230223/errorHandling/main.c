@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "myfunctions.h"
+#include "myfunctions.h"
 
 int main()
 {
@@ -20,5 +22,7 @@ int main()
     printf("\n%s\n", content);
     // Try to write in a file that has been opened for reading, what happens?
     fputc('c',filePointer);
+    // Function call to our library
+    printSomething();
     return 0;
 }
