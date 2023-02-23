@@ -10,7 +10,7 @@ int main()
     // Avataan tiedosto lukumoodissa
     sourceFilePointer = fopen("c:/tmp/source.txt", "r");
     // Avataan tiedosto kirjoitusmoodissa
-    targetFilePointer = fopen("c:/tmp/target.txt", "w");
+    targetFilePointer = fopen("c:/tmp/target.txt", "a");
     // luetaan merkki kerrallaan kunnes saavutetaan end of file
     while((currentCharFromFile = fgetc(sourceFilePointer)) != EOF )
     {
@@ -18,7 +18,7 @@ int main()
         if ( currentCharFromFile == ',')
         {
             // korvataan puolipisteellä
-            fputc('-', targetFilePointer);
+            fputc(';', targetFilePointer);
         } else {
             // ei korvata, vaan kirjoitetaan sellaisenaan
             fputc(currentCharFromFile, targetFilePointer);
