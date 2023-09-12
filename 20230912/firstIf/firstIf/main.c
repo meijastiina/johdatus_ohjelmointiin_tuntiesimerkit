@@ -2,13 +2,13 @@
 
 int main()
 {
-    // PyydÃ¤ kÃ¤yttÃ¤jÃ¤Ã¤ syÃ¶ttÃ¤mÃ¤Ã¤n numero
+    // Pyydä käyttäjää syöttämään numero
     printf("Please enter a number: ");
     // Luo muuttuja numerolle
     int number;
     // Lue annettu numero muuttujaan
     scanf("%d",&number);
-    // Jos syÃ¶te on 0
+    // Jos syöte on 0
     if ( number == 0 )
     {
         // Tulosta "You entered a zero"
@@ -21,7 +21,7 @@ int main()
         printf("\nYou entered something else\n");
     }
 
-    // Onko number vÃ¤lillÃ¤ 1-10
+    // Onko number välillä 1-10
     if ( number >= 1 && number <= 10 )
     {
         printf("\nNumber is within range 1-10\n");
@@ -34,7 +34,7 @@ int main()
     }
 
     int y = 11;
-    // Onko number vÃ¤lillÃ¤ 1-10 ja y on alueen 1-10 ulkopuolella
+    // Onko number välillä 1-10 ja y on alueen 1-10 ulkopuolella
     if ((number >= 1 && number <= 10) && (y < 1 || y > 10 ))
     {
         printf("\nNumber is within and y is outside range 1-10\n");
@@ -42,7 +42,7 @@ int main()
 
     /******************** SWITCH CASE ***********************/
     switch(number) {
-        // Jos syÃ¶te on 0
+        // Jos syöte on 0
         case 0:
         {
             // Tulosta "You entered a zero"
