@@ -1,25 +1,25 @@
 /*
- * Tee C-kielinen ohjelma, joka kysyy k‰ytt‰j‰lt‰ kuukauden ostosten eurom‰‰r‰n.
-Jos ostosten yhteissumma on alle 100Ä, saat alennusta ostoista 10%
-Jos ostosten yhteissumma on alle 300Ä, saat alennusta 15%
-Jos ostosten yhteissumma on alle 500Ä, saat alennusta 20%,
+ * Tee C-kielinen ohjelma, joka kysyy k√§ytt√§j√§lt√§ kuukauden ostosten eurom√§√§r√§n.
+Jos ostosten yhteissumma on alle 100‚Ç¨, saat alennusta ostoista 10%
+Jos ostosten yhteissumma on alle 300‚Ç¨, saat alennusta 15%
+Jos ostosten yhteissumma on alle 500‚Ç¨, saat alennusta 20%,
 muussa tapauksessa alennus on 25%.
 Laske ja tulosta ostosten lopullinen summa.
 Tulostusesimerkki:
-Olet ostanut t‰ss‰ kuussa ___Ä:lla ja saat niist‰ alennusta
-__%. Ostosten lopullinen summa on __Ä.
+Olet ostanut t√§ss√§ kuussa ___‚Ç¨:lla ja saat niist√§ alennusta
+__%. Ostosten lopullinen summa on __‚Ç¨.
 */
 #include <stdio.h>
 
 int main()
 {
-    // Luo muuttujat kuukauden ostosten eurom‰‰r‰lle, aleprosentille, alennetulle hinnalle
+    // Luo muuttujat kuukauden ostosten eurom√§√§r√§lle, aleprosentille, alennetulle hinnalle
     float monthlyTotal;
     float discountedMonthlyTotal;
     int discountPercentage = 0;
-    // Pyyd‰ k‰ytt‰j‰‰ syˆtt‰m‰‰n kuukauden ostosten eurom‰‰r‰
+    // Pyyd√§ k√§ytt√§j√§√§ sy√∂tt√§m√§√§n kuukauden ostosten eurom√§√§r√§
     printf("Please enter monthly total in euros: ");
-    // Lue k‰ytt‰j‰n syˆte
+    // Lue k√§ytt√§j√§n sy√∂te
     scanf("%f", &monthlyTotal);
     // Tutki alennusprosentti
     // Jos yhteissumma alle 100
