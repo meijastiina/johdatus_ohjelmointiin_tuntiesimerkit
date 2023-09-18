@@ -59,5 +59,26 @@ int main()
         // Rivi tulostettu -> uusi rivi
         printf("\n");
     }
+
+    /*********** VIIKKOKOEKYSYMYKSIA ***********/
+    printf("\n*********** VIIKKOKOEKYSYMYKSIA *********\n");
+    int age = 6;
+    if(age>5)
+    {
+        printf("A");
+        printf("B");
+    }else {
+        printf("C");
+    }
+    printf("D");
+
+    printf("\n*********** PARILLINEN VAI PARITON *********\n");
+    int number = 3;
+    if ( number % 2 == 0) {
+        printf("Parillinen\n");
+    } else {
+        printf("Pariton\n");
+    }
+
     return 0;
 }
