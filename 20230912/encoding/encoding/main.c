@@ -20,6 +20,9 @@ int main()
         default:
             printf("Virheellinen valinta\n");
     }
-
+    float test;
+    printf("Syötä testi: ");
+    scanf("%f", &test);
+    printf("test %f\n", test);
     return 0;
 }
