@@ -7,8 +7,10 @@ int main()
     char letterFromFile;
     // Luodaan kokonaislukumuuttuja luettavalle tiedolle
     int numberFromFile;
+    // Luodaan vakio maksimimerkkimäärälle
+    const int MAX_CHARACTERS = 255;
     // Luodaan merkkitaulukkomuuttuja luettavalle tiedolle
-    char textFromFile[255];
+    char textFromFile[MAX_CHARACTERS];
     // Luodaan muuttuja tiedostopointterille
     FILE *filepointer;
 
@@ -32,7 +34,7 @@ int main()
     // Lue tiedoston sisältö
     printf("\n****************** FGETS ***************\n");
     printf("Text from file: \n");
-    while( fgets(textFromFile, 255, filepointer) != NULL) {
+    while( fgets(textFromFile, MAX_CHARACTERS, filepointer) != NULL) {
         // Tulosta näytölle
         printf("%s", textFromFile);
     }
