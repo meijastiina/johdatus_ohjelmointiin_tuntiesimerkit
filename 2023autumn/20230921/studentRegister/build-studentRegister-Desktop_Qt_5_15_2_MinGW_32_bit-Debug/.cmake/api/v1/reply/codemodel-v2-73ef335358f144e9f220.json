@@ -1,0 +1,61 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-09ef9cafc883eac34991.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "studentRegister",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "studentRegister::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-studentRegister-Debug-f3d02604e3cadddbb0f7.json",
+					"name" : "studentRegister",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/GitHub/johdatus_ohjelmointiin_tuntiesimerkit/johdatus_ohjelmointiin_tuntiesimerkit/20230921/studentRegister/build-studentRegister-Desktop_Qt_5_15_2_MinGW_32_bit-Debug",
+		"source" : "C:/GitHub/johdatus_ohjelmointiin_tuntiesimerkit/johdatus_ohjelmointiin_tuntiesimerkit/20230921/studentRegister/studentRegister"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

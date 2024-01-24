@@ -1,0 +1,61 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-cdaf24ef93663dfb781b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "monthlyShopping",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "monthlyShopping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-monthlyShopping-Debug-176093add5dd3d5a964b.json",
+					"name" : "monthlyShopping",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/GitHub/johdatus_ohjelmointiin_tuntiesimerkit/johdatus_ohjelmointiin_tuntiesimerkit/20230915/build-monthlyShopping-Desktop_Qt_5_15_2_MinGW_32_bit-Debug",
+		"source" : "C:/GitHub/johdatus_ohjelmointiin_tuntiesimerkit/johdatus_ohjelmointiin_tuntiesimerkit/20230915/monthlyShopping"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

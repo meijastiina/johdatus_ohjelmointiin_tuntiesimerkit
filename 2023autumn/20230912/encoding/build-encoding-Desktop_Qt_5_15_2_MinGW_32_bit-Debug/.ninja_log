@@ -1,0 +1,27 @@
+# ninja log v5
+0	79	7162161058873030	CMakeFiles/encoding.dir/main.c.obj	2b5f6ba95be363af
+80	334	7162161061363687	encoding.exe	4b2c46ad48582d79
+2	76	7162161354099304	CMakeFiles/encoding.dir/main.c.obj	2b5f6ba95be363af
+77	190	7162161355191039	encoding.exe	4b2c46ad48582d79
+1	78	7162177003933799	CMakeFiles/encoding.dir/main.c.obj	2b5f6ba95be363af
+79	388	7162177006981978	encoding.exe	4b2c46ad48582d79
+2	82	7162177465178411	CMakeFiles/encoding.dir/main.c.obj	2b5f6ba95be363af
+83	223	7162177466477855	encoding.exe	4b2c46ad48582d79
+2	130	7162180352061249	CMakeFiles/encoding.dir/main.c.obj	2b5f6ba95be363af
+131	518	7162180355861752	encoding.exe	4b2c46ad48582d79
+2	89	7162180577692146	CMakeFiles/encoding.dir/main.c.obj	2b5f6ba95be363af
+90	262	7162180579402526	encoding.exe	4b2c46ad48582d79
+2	94	7164602730843627	CMakeFiles/encoding.dir/main.c.obj	2b5f6ba95be363af
+95	221	7164602732062301	encoding.exe	4b2c46ad48582d79
+1	85	7175879895656880	CMakeFiles/encoding.dir/main.c.obj	2b5f6ba95be363af
+86	329	7175879898054003	encoding.exe	4b2c46ad48582d79
+2	114	7175894974084650	CMakeFiles/encoding.dir/main.c.obj	2b5f6ba95be363af
+115	387	7175894976761412	encoding.exe	4b2c46ad48582d79
+1	79	7175895203684310	CMakeFiles/encoding.dir/main.c.obj	2b5f6ba95be363af
+79	201	7175895204839184	encoding.exe	4b2c46ad48582d79
+2	88	7175895539567226	CMakeFiles/encoding.dir/main.c.obj	2b5f6ba95be363af
+88	215	7175895540807432	encoding.exe	4b2c46ad48582d79
+2	74	7175896117776587	CMakeFiles/encoding.dir/main.c.obj	2b5f6ba95be363af
+74	194	7175896118928811	encoding.exe	4b2c46ad48582d79
+1	81	7175896746668302	CMakeFiles/encoding.dir/main.c.obj	2b5f6ba95be363af
+81	200	7175896747795094	encoding.exe	4b2c46ad48582d79
