@@ -17,6 +17,15 @@ int main()
     printf("\nEnter second number: ");
     scanf("%d", &number2);
     // tulostaa niistä suuremman
-    printf("\nAnnoit luvut %d ja %d, joista __ on suurempi.", number1, number2);
+    if ( number1 > number2) {
+        // number1 on suurempi kuin number2
+        printf("\nAnnoit luvut %d ja %d, joista %d on suurempi.", number1, number2, number1);
+    } else {
+        // number2 on suurempi kuin number1
+        printf("\nAnnoit luvut %d ja %d, joista %d on suurempi.", number1, number2, number2);
+    }
+    // Ternäärioperaattori
+    // ehto ? mitä tehdään jos ehto on tosi : mitä tehdään jos ehto ei ole tosi
+    printf("\nAnnoit luvut %d ja %d, joista %d on suurempi.", number1, number2,  number1 > number2 ? number1 : number2 );
     return 0;
 }
