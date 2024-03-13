@@ -23,7 +23,7 @@ int main()
 
     phoneBook[1].id = 112;
     strcpy(phoneBook[1].name, "Joe");
-    strcpy(phoneBook[1].phoneNumber, "123456");
+    strcpy(phoneBook[1].phoneNumber, "+11123456");
     strcpy(phoneBook[1].organization, "Laurea");
 
     phoneBook[2].id = 278;
