@@ -53,5 +53,7 @@ int main()
     // Tulosta otsikko
     printf("***************** TASK 3 ****************");
 
+
+
     return 0; // Ohjelman suoritus päättyy tähän -> aina viimeisenä mainissa
 }
