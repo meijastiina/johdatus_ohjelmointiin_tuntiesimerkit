@@ -1,0 +1,61 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-0a9ffdd2b1d9e2ce2951.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "numberArray",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "numberArray::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-numberArray-Debug-f583e2b6f5453aa9855c.json",
+					"name" : "numberArray",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/GitHub/opintojaksot/johdatus_ohjelmointiin/johdatus_ohjelmointiin_tuntiesimerkit/2024autumn/20240909/numberArray/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug",
+		"source" : "C:/GitHub/opintojaksot/johdatus_ohjelmointiin/johdatus_ohjelmointiin_tuntiesimerkit/2024autumn/20240909/numberArray"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
