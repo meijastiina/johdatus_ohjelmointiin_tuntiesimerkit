@@ -1,0 +1,13 @@
+# ninja log v5
+4	100	7481892804621145	CMakeFiles/firstWhile.dir/main.c.obj	a2470dfe64a7beb2
+102	367	7481892807235828	firstWhile.exe	4dd4d5cf7342435b
+6	105	7481894804643924	CMakeFiles/firstWhile.dir/main.c.obj	a2470dfe64a7beb2
+105	260	7481894806130789	firstWhile.exe	4dd4d5cf7342435b
+62	228	7481895670023822	CMakeFiles/firstWhile.dir/main.c.obj	a2470dfe64a7beb2
+229	552	7481895673195239	firstWhile.exe	4dd4d5cf7342435b
+20	141	7481897763021233	CMakeFiles/firstWhile.dir/main.c.obj	a2470dfe64a7beb2
+142	371	7481897765269943	firstWhile.exe	4dd4d5cf7342435b
+25	181	7481898402833655	CMakeFiles/firstWhile.dir/main.c.obj	a2470dfe64a7beb2
+182	368	7481898404634966	firstWhile.exe	4dd4d5cf7342435b
+30	142	7481898658581236	CMakeFiles/firstWhile.dir/main.c.obj	a2470dfe64a7beb2
+143	300	7481898660108424	firstWhile.exe	4dd4d5cf7342435b
