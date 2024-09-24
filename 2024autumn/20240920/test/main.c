@@ -8,7 +8,8 @@ int main()
     printf("Number1: ");
     scanf("%d", &number1);
     printf("Operand: ");
-    scanf(" %c", &operand);
+    //scanf(" %c", &operand);
+    operand = fgetc(stdin);
     printf("Number2: ");
     scanf("%d", &number2);
     return 0;
