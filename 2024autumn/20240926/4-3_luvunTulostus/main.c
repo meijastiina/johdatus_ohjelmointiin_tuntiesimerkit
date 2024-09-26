@@ -7,14 +7,15 @@ kokonaisluku. luvunTulostus() aliohjelma tulostaa siihen välitetyn luvun näyt�
 // funktion prototyyppi
 int readNumber();
 void printNumber(int number);
+// määritellään globaalimuuttuja
 
 int main()
 {
     // kutsutaan funktiota
     // tulosta palautettu luku näytölle
     int number = readNumber(); // tallennetaan funktiolta paluuarvona saatu luku muuttujaan
-    //printNumber(number);
-    //printNumber(readNumber());
+    printNumber(number);
+    printNumber(readNumber());
     return 0;
 }
 
