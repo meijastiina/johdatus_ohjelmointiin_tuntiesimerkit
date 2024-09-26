@@ -8,7 +8,8 @@ vertailee niiden suuruutta ja tulostaa ne suuruusjärjestyksessä näytölle (su
 
 int main()
 {
-
+    compare(12, 45);
+    compare(4512, 454);
     return 0;
 }
 
@@ -17,7 +18,7 @@ int main()
  *                  int number2 - toinen vertailtava luku
  * Paluuarvo:       void
  **********************************************/
-void compare(int numer1, int number2)
+void compare(int number1, int number2)
 {
 
 }
