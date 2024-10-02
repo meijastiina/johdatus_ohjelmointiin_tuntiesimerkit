@@ -1,0 +1,13 @@
+# ninja log v5
+24	255	7491265646817287	CMakeFiles/structTest.dir/main.c.obj	a8706998506e6c0e
+261	572	7491265649953438	structTest.exe	5f2f465cacb4bf2d
+8	110	7491266711975970	CMakeFiles/structTest.dir/main.c.obj	a8706998506e6c0e
+111	258	7491266713406933	structTest.exe	5f2f465cacb4bf2d
+24	162	7491266842182081	CMakeFiles/structTest.dir/main.c.obj	a8706998506e6c0e
+162	315	7491266843674157	structTest.exe	5f2f465cacb4bf2d
+20	157	7491267877979485	CMakeFiles/structTest.dir/main.c.obj	a8706998506e6c0e
+158	331	7491267879628686	structTest.exe	5f2f465cacb4bf2d
+24	153	7491268147519537	CMakeFiles/structTest.dir/main.c.obj	a8706998506e6c0e
+154	295	7491268148873867	structTest.exe	5f2f465cacb4bf2d
+24	119	7491270121577162	CMakeFiles/structTest.dir/main.c.obj	a8706998506e6c0e
+120	269	7491270123005156	structTest.exe	5f2f465cacb4bf2d
