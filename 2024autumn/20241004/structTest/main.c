@@ -16,7 +16,7 @@ int main()
     students[0] = student1;
     students[1] = student1;
     students[2] = student1;
-    printStudentNumber(student1);
+    printStudentNumber(students[0]);
     printAllStudents(students);
     return 0;
 }
