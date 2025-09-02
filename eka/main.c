@@ -10,9 +10,9 @@ int main()
   int number1 = 12;
   int number2;
   number2 = 34;
-    printf("\nHello World! Today is %dst of September %d\n", 1, 2025);
+  printf("\nHello World! Today is %dst of September %d\n", 1, 2025);
 
-    printf("\nNumber1 value is %d and number2 value is %d.", number1, number2);
+  printf("\nNumber1 value is %d and number2 value is %d.", number1, number2);
 
   // Pyydä käyttäjää syöttämään luku
   printf("\nPlease enter a number: ");
@@ -38,11 +38,14 @@ int main()
   // Pyydä käyttäjältä karkkien lukumäärä
   printf("\nEnter number of candies: ");
   scanf("%d", &numberOfCandies);
+
   // Pyydä käyttäjältä lasten lukumäärä
   printf("\nEnter number of kids: ");
   scanf("%d", &numberOfKids);
+
   // Tulosta näytölle
   printf("Number of candies for each kid: %d", numberOfCandies / numberOfKids);
   printf("\nNumber of candies left: %d", numberOfCandies % numberOfKids);
+
   return 0;
 }
