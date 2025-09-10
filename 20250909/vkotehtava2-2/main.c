@@ -6,10 +6,13 @@
 */
 #include <stdio.h>
 
+
 int main()
 {
   // Luo muuttujat luvuilla
   int number1, number2;
+
+
   // Pyydä käyttäjää syöttämään kaksi lukua
   printf("Please enter two numbers separated by a space\n");
   // Lue käyttäjän syötteet muuttujiin
@@ -23,5 +26,6 @@ int main()
   // sama toteutettuna ternäärioperaattorilla
   // esimerkki: printf( age < 18 ? "You're a minor" : "You're an adult");
   printf("Annoit luvut %d ja %d, joista %d on suurempi.", number1, number2, number1 < number2 ? number2 : number1);
+
   return 0;
 }
