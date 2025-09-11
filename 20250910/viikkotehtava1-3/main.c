@@ -17,6 +17,7 @@ int main()
         break;
     }
     case 2: {
+
         printf("Tiistai");
         break;
     }
