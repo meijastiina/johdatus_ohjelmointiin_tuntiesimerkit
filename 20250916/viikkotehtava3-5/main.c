@@ -5,27 +5,26 @@ on nolla parillisilla luvuilla) (Jos käyttäjä syöttää luvun 8 niin ohjelma
 (0+2+4+6+8)
 */
 #include <stdio.h>
-
 int main()
 {
-    // luo muuttujat
-    int enteredNumber;
-    int i = 0;
-    int sum = 0;
-    printf("Enter number: ");
-    scanf("%d", &enteredNumber);
-    while ( i <= enteredNumber)
+  // luo muuttujat
+  int enteredNumber;
+  int i = 0;
+  int sum = 0;
+  printf("Enter number: ");
+  scanf("%d", &enteredNumber);
+  while ( i <= enteredNumber)
+  {
+    // Jos käsiteltävänä oleva luku on parillinen
+    // (jaollinen kahdella eli jakojäännös on 0 kun jaetaan kahdella)
+    if ( i % 2 == 0 )
     {
-        // Jos käsiteltävänä oleva luku on parillinen
-        // (jaollinen kahdella eli jakojäännös on 0 kun jaetaan kahdella)
-        if ( i % 2 == 0 )
-        {
-            printf("%d ", i);
-            // sum = sum + i;
-            sum += i;
-        }
-        i++;
+        printf("%d ", i);
+        // sum = sum + i;
+        sum += i;
     }
-    printf("\nSum: %d", sum);
-    return 0;
+    i++;
+  }
+  printf("\nSum: %d", sum);
+  return 0;
 }
