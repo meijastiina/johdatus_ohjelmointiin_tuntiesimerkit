@@ -24,6 +24,7 @@ int main()
     // Write 'i' in the file
     fputc('\n', filehandler);
     fputc('i', filehandler);
-
+    // Close the file.
+    fclose(filehandler);
     return 0;
 }
